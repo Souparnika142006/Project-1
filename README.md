@@ -1,4 +1,133 @@
 
+
+🎓 Title: Student Health Monitoring System
+
+
+---
+
+🖥️ Slide 1: Title Slide
+
+Title: Student Health Monitoring System
+By: [Your Name]
+Language: Java
+Platform: Console-based Application
+Date: [Your Presentation Date]
+
+
+---
+
+💡 Slide 2: Introduction
+
+Purpose: To ensure students meet basic health standards before entering school/class
+
+Key Checks:
+
+Mask-wearing status
+
+Body temperature
+
+
+Developed using Java with Scanner for input and conditionals
+
+
+
+---
+
+🎯 Slide 3: Objective
+
+Automate student health verification
+
+Ensure COVID-like safety practices
+
+Reduce manual checking burden on staff
+
+
+
+---
+
+🔧 Slide 4: Technologies Used
+
+Tool	Purpose
+
+Java	Core logic and input/output
+Scanner class	To read user inputs
+Conditionals	To evaluate mask + temperature
+Console I/O	Display access status
+
+
+
+---
+
+🧮 Slide 5: Workflow Diagram
+
+[Student Enters Info] 
+        ↓
+[Is Mask Worn?] → No → Access Denied
+        ↓
+[Temp ≤ 37.5?] → No → Access Denied
+        ↓
+       Yes
+        ↓
+[Access Granted]
+
+(You can draw this using arrows or simple SmartArt in PowerPoint.)
+
+
+---
+
+🧪 Slide 6: Sample Code Snippet
+
+if(mask.equals("yes") && temp <= 37.5) {
+    System.out.println("Access granted");
+} else {
+    System.out.println("Access denied");
+}
+
+(Add syntax highlighting and make font large for readability)
+
+
+---
+
+💻 Slide 7: Demo Screenshot or Flow
+
+Screenshot of console running
+
+Example input/output:
+
+Enter name: Riya
+Wearing mask: yes
+Temperature: 36.8
+➜ Access granted
+
+
+
+---
+
+✅ Slide 8: Advantages
+
+Quick and easy health verification
+
+No external libraries required
+
+Can be extended to GUI or database later
+
+
+
+---
+
+🧠 Slide 9: Future Scope
+
+Add GUI using Java Swing
+
+Store student logs in a database
+
+Add ID scanner integration
+
+Alert system for high temperature detection
+
+
+
+PROGRAM:
 import java.util.Scanner;
 
 public class HealthCheck {
@@ -35,3 +164,8 @@ A simple Java console application that simulates student health checking, includ
 ## 🚀 How to Run
 
 Compile:
+Run:
+
+Video link for student health check monitoring:
+https://youtu.be/lLkvTAh32_8?si=nmraML08FzJdX-xr
+https://youtu.be/oA-TGI9hmrY?si=QXyPQ3xfxDZ9KosN
